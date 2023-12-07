@@ -1,0 +1,42 @@
+{
+  "Fantasy": [
+    "The Hobbit",
+    "Harry Potter and the Sorcerer's Stone",
+    "Game of Thrones",
+    "The Witcher: The Last Wish",
+    "The Name of the Wind",
+    "Mistborn: The Final Empire"
+  ],
+  "Sci-Fi": [
+    "Dune",
+    "Ender's Game",
+    "The Martian",
+    "Foundation",
+    "Neuromancer",
+    "Snow Crash"
+  ],
+  "Mystery": [
+    "The Girl with the Dragon Tattoo",
+    "Gone Girl",
+    "Sherlock Holmes: A Study in Scarlet",
+    "And Then There Were None",
+    "The Da Vinci Code",
+    "In the Woods"
+  ],
+  "Romance": [
+    "Pride and Prejudice",
+    "Outlander",
+    "The Notebook",
+    "Me Before You",
+    "The Time Traveler's Wife",
+    "The Fault in Our Stars"
+  ],
+  "Non-fiction": [
+    "Sapiens: A Brief History of Humankind",
+    "Educated",
+    "The Immortal Life of Henrietta Lacks",
+    "Becoming",
+    "The Diary of a Young Girl",
+    "When Breath Becomes Air"
+  ]
+}

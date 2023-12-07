@@ -1,31 +1,62 @@
-# Basic React Starter
+# Book Recommendations Project Instructions
 
-You can use this starter to create any ReactJS app you would like.
-Unlike when you use `npm create vite@latest your-app-name -- --template react`,
+## Objective
 
-This repo has removed all of the unwanted starter code that is normally included when using `npm` to create an application.
+Create a React application that allows users to select a book genre and view a list of books in that genre. Your main tasks are to implement the genre selection buttons and display the list of books for the selected genre.
 
-## Getting started
+## Setup
 
-- `clone` this application
-- change the name of this directory to a name that refers to your current project. Don't just leave it as `react-basic-starter`
-  _Hint:_ In the terminal, type `mv react-basic-starter new-name-of-your-app`
-- `cd` into the app
-- in the terminal run `git remote remove origin` in order to remove any connection to this Github folder.
+Your project setup includes a `BookRecommendationEngine` component and a `books.json` file containing an array of book titles for each genre.
 
-- run `npm install`
-- to start the project, run `npm run dev`
-- no navigate to `localhost:3000` and you will see the app
-- Now you are ready to code
+**`books.json` Example:**
 
-If you would like to connect this afterwards to your personal Github then:
+```json
+{
+  "Fantasy": [
+    "The Hobbit",
+    "Harry Potter",
+    "Game of Thrones",
+    "The Witcher",
+    "The Name of the Wind",
+    "Mistborn"
+  ],
+  "Sci-Fi": [
+    "Dune",
+    "Ender's Game",
+    "The Martian",
+    "Foundation",
+    "Neuromancer",
+    "Snow Crash"
+  ]
+  // ... other genres
+}
+```
 
-- go to your Github account in the browser
-- create a new repo and give it a name
-- make sure the repo is public and click `Create Repository`
-- copy the instructions under the title `…or push an existing repository from the command line`
-- paste the commands in your terminal
+## Core Tasks
 
-You have now connected your project to the repo.
+1. **State Setup**:
 
-**You have the ability to clone this repo over and over to create your own projects. Just remember to change the name of the folder so that you do not have duplicates**
+   - Import the book data from `books.json`.
+   - Set up state in your `BookRecommendationEngine` component to manage the selected genre and the list of book recommendations.
+
+2. **Create Genre Buttons**:
+
+   - Map over the genres in your book data to create a button for each genre.
+   - Add an `onClick` event to each button that updates the state with the selected genre and corresponding book recommendations.
+
+3. **Display Book Recommendations**:
+   - Display the list of books for the currently selected genre.
+   - Ensure this list updates correctly when a new genre is selected.
+
+## Bonus Challenge
+
+- **Implement a "More Like This" Feature**:
+  - Initially, show only the first two books of the selected genre.
+  - Add a "More Like This" button that, when clicked, displays the rest of the books in that genre.
+
+## Tips
+
+- **State Management**: Think about how to structure your state to manage both the selected genre and the list of recommendations effectively.
+- **Event Handling**: Consider creating separate functions for handling genre selection and the "More Like This" feature. This helps keep your code organized and maintainable.
+- **Key Props in Lists**: Remember to use key props when mapping over arrays in React to prevent rendering issues. The key should be a unique identifier for each element in the array.
+- **Conditional Rendering**: Use conditional rendering to display the "More Like This" button and the additional book recommendations based on the state.

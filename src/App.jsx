@@ -1,7 +1,8 @@
-import React from "react";
+import ".App.css";
+import BookRecommendations from "./components/BookRecommendations";
 
 const App = () => {
-  return <div>Basic Pursuit React Starter</div>;
+  return <BookRecommendations />;
 };
 
 export default App;
