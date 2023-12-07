@@ -1,6 +1,6 @@
 // BookRecommendationEngine.jsx
 import React, { useState } from "react";
-import "./BookRecommendationEngine.css";
+import "./BookRecommendations.css";
 import bookData from "../books.json";
 
 const BookRecommendations = () => {

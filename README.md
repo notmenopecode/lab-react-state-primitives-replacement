@@ -6,7 +6,7 @@ Create a React application that allows users to select a book genre and view a l
 
 ## Setup
 
-Your project setup includes a `BookRecommendationEngine` component and a `books.json` file containing an array of book titles for each genre.
+Your project setup includes a `BookRecommendations` component and a `books.json` file containing an array of book titles for each genre.
 
 **`books.json` Example:**
 
@@ -37,7 +37,7 @@ Your project setup includes a `BookRecommendationEngine` component and a `books.
 1. **State Setup**:
 
    - Import the book data from `books.json`.
-   - Set up state in your `BookRecommendationEngine` component to manage the selected genre and the list of book recommendations.
+   - Set up state in your `BookRecommendations` component to manage the selected genre and the list of book recommendations.
 
 2. **Create Genre Buttons**:
 
