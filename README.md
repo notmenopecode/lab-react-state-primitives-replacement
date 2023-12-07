@@ -6,6 +6,10 @@ Create a React application that allows users to select a book genre and view a l
 
 ## Setup
 
+- `fork` and `clone` this repo
+
+- `cd` into the repo and run `npm install`
+
 Your project setup includes a `BookRecommendations` component and a `books.json` file containing an array of book titles for each genre.
 
 **`books.json` Example:**
