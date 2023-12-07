@@ -40,8 +40,9 @@ Your project setup includes a `BookRecommendations` component and a `books.json`
 
 1. **State Setup**:
 
-   - Import the book data from `books.json`.
-   - Set up state in your `BookRecommendations` component to manage the selected genre and the list of book recommendations.
+   - You will be working in the `BookRecommendations` component
+   - The book data has been imported from `books.json`.
+   - The `BookRecommendations` component has been set up to hold and manage the json list of book recommendations.
 
 2. **Create Genre Buttons**:
 
