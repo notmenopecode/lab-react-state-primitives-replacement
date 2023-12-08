@@ -52,10 +52,11 @@ Your project setup includes a `BookRecommendations` component and a `books.json`
    _\*\*HINT: You may want to add a slice of state as well as a function to help implement this functionality._
 
 3. **Display Book Recommendations**:
+
    - Display the list of books for the currently selected genre.
    - Ensure this list updates correctly when a new genre is selected.
 
-_\*\*HINT:You may want to add a slice of state to help implement this functionality_
+   _\*\*HINT:You may want to add a slice of state to help implement this functionality_
 
 ## Bonus Challenge
 
