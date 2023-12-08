@@ -90,8 +90,8 @@ Your project setup includes a `BookRecommendations` component and a `books.json`
 
 ### Landing Page:
 
-<img src="./assets/starting-screen.png" width="600" height="400">
+<img src="./assets/starting-screen.png" width="550" height="400">
 
 ### Genre Button Clicked:
 
-<img src="./assets/chosen-genre.png" width="600" height="400">
+<img src="./assets/chosen-genre.png" width="550" height="400">
