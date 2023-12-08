@@ -44,6 +44,7 @@ Your project setup includes a `BookRecommendations` component and a `books.json`
 
    - You will be working in the `BookRecommendations` component
    - The book data has been imported from `books.json`.
+   - The keys in the data represent the genres for the books.
    - The `BookRecommendations` component has been set up to hold and manage the json list of book recommendations.
    - The CSS has already been created. Do not change the classNames that are associated with the `<div>`s in the `BookRecommendations.jsx` file
 
