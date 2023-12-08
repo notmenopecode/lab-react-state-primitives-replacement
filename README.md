@@ -1,5 +1,7 @@
 # Book Recommendations Project Instructions
 
+![App Image](./assets/app-image.webp)
+
 ## Objective
 
 Create a React application that allows users to select a book genre and view a list of books in that genre. Your main tasks are to implement the genre selection buttons and display the list of books for the selected genre.
