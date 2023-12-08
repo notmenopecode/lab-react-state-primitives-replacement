@@ -94,4 +94,14 @@ Your project setup includes a `BookRecommendations` component and a `books.json`
 
 ### Genre Button Clicked:
 
+<img src="./assets/basic-criteria.png" width="550" height="400">
+
+## More Like This Bonus Images
+
+## Genre Button Clicked:
+
 <img src="./assets/chosen-genre.png" width="550" height="400">
+
+## More Like This Button Clicked
+
+<img src="./assets/more-like-this.png" width="550" height="400">
