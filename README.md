@@ -94,4 +94,4 @@ Your project setup includes a `BookRecommendations` component and a `books.json`
 
 ### Genre Button Clicked:
 
-<img src="./assets/starting-screen.png" width="600" height="400">
+<img src="./assets/chosen-genre.png" width="600" height="400">
