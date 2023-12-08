@@ -55,6 +55,15 @@ Your project setup includes a `BookRecommendations` component and a `books.json`
 
 ## Bonus Challenge
 
+### Easier Option
+
+- **Nest child components in `BookRecommendations` components**
+
+  - separate the button list and the recommendations into two components `RecommendationButtons.jsx` and `RecommendationList.jsx`
+  - pass the components the correct props so that they function the same way
+
+### More Challenging Option
+
 - **Implement a "More Like This" Feature**:
   - Initially, show only the first two books of the selected genre.
   - Add a "More Like This" button that, when clicked, displays the rest of the books in that genre.
