@@ -86,8 +86,12 @@ Your project setup includes a `BookRecommendations` component and a `books.json`
 - **Key Props in Lists**: Remember to use key props when mapping over arrays in React to prevent rendering issues. The key should be a unique identifier for each element in the array.
 - **Conditional Rendering**: Use conditional rendering to display the "More Like This" button and the additional book recommendations based on the state.
 
-## Images:
+## Core Tasks Images:
 
 ### Landing Page:
+
+<img src="./assets/starting-screen.png" width="600" height="400">
+
+### Genre Button Clicked:
 
 <img src="./assets/starting-screen.png" width="600" height="400">
