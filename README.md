@@ -49,7 +49,7 @@ Your project setup includes a `BookRecommendations` component and a `books.json`
    - Map over the genres in your book data to create a button for each genre.
    - Add an `onClick` event to each button that updates the state with the selected genre and corresponding book recommendations.
 
-   \_\*\*HINT: You may want to add a slice of state as well as a function to help implement this functionality.
+   _\*\*HINT: You may want to add a slice of state as well as a function to help implement this functionality._
 
 3. **Display Book Recommendations**:
    - Display the list of books for the currently selected genre.
