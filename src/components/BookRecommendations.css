@@ -47,10 +47,13 @@ body {
 
 .book-list li {
   background-color: white;
-  padding: 10px;
-  margin: 10px auto; /* Center the list items */
+  padding: 5px;
+
+  margin: 0px 1000px 5% 0px ; /* Center the list items */
   width: 90%; /* Control the width of list items */
   max-width: 500px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  text-align: center;
 }

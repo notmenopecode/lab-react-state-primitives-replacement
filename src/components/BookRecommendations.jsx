@@ -9,18 +9,31 @@ const BookRecommendations = () => {
 
   // SUGGESTED TODOS:
   // TODO: Implement state for selected genre and recommendations
-  // TODO: Implement state for recommendations
+  const [selectedGenre, setSelectedGenre]= useState(null);
+  const[recommendations, setRecommendations]= useState([])
+  
   // TODO: Implement the handleGenreSelect function
+  const handleGenreSelect=(genre)=>{
+    setSelectedGenre(genre);
+    setRecommendations(books[genre]);
+  }
 
   return (
-    <div className="book-recommendation-engine">
+    <div className="book-recommendation-engine" className="book-recommendations">
       <h2>Book Recommendation Engine</h2>
       <div className="genre-buttons">
         {/* TODO: Map over genres and create buttons */}
+        {Object.keys(books).map((genre)=>(
+          <button key={genre} onClick={()=> handleGenreSelect(genre)}>{genre}</button>
+        ))}
       </div>
-      <div>
+      <div className="book-list">
         <h3>Recommendations:</h3>
         {/* TODO: Display recommendations based on selected genre */}
+        <ul>{recommendations.map((book, index)=>(
+          <li key={index}>{book}</li>
+        ))}
+        </ul>
       </div>
     </div>
   );
