@@ -28,7 +28,7 @@ const BookRecommendations = () => {
         ))}
       </div>
       <div className="book-list">
-        <h3>Recommendations:</h3>
+        <h3>Recommendations for {selectedGenre}:</h3>
         {/* TODO: Display recommendations based on selected genre */}
         <ul>{recommendations.map((book, index)=>(
           <li key={index}>{book}</li>
